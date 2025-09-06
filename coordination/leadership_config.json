@@ -1,0 +1,20 @@
+{
+  "name": "Monitors Leadership Farm",
+  "description": "High-context strategic team - PM, Architect, Lead Developer with long-term memory",
+  "path": "/Users/davidcerezo/Projects/monitors",
+  "tech_stack": "sveltekit_typescript_postgresql",
+  "chunk_size": 3,
+  "agents": 3,
+  "stagger": 45,
+  "check_interval": 300,
+  "skip_regenerate": true,
+  "skip_commit": true,
+  "context_threshold": 50,
+  "idle_timeout": 600,
+  "max_errors": 50,
+  "no_monitor": true,
+  "attach": true,
+  "tmux_kill_on_exit": false,
+  "infinite_mode": true,
+  "prompt_file": "/Users/davidcerezo/Projects/monitors/coordination/agent_startup_prompt.md"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Monitors Project Agent Farm",
+  "description": "Custom configuration for the Monitors! AI-powered monitoring application",
+  "path": "/Users/davidcerezo/Projects/monitors",
+  "tech_stack": "sveltekit_typescript_postgresql",
+  "chunk_size": 5,
+  "agents": 11,
+  "stagger": 60,
+  "check_interval": 300,
+  "skip_regenerate": true,
+  "skip_commit": true,
+  "context_threshold": 15,
+  "idle_timeout": 600,
+  "max_errors": 50,
+  "no_monitor": true,
+  "attach": true,
+  "tmux_kill_on_exit": false,
+  "infinite_mode": true,
+  "prompt_file": "/Users/davidcerezo/Projects/monitors/coordination/agent_startup_prompt.md"
+}

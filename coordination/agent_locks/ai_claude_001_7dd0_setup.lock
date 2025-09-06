@@ -1,0 +1,28 @@
+{
+  "agent_id": "ai_claude_001_7dd0",
+  "timestamp": "2025-09-06T11:45:00Z",
+  "planned_scope": {
+    "files": [
+      "src/lib/ai/providers/base.ts",
+      "src/lib/ai/providers/claude.ts",
+      "src/lib/ai/providers/openai.ts",
+      "src/lib/ai/provider-router.ts",
+      "src/lib/ai/types.ts"
+    ],
+    "features": [
+      "AI Provider Integration Framework",
+      "Prompt Engineering System",
+      "Monitor Classification Engine"
+    ],
+    "estimated_duration": "8 hours"
+  },
+  "status": "planning",
+  "ports": {
+    "app": 8364,
+    "db": 8365,
+    "redis": 8366,
+    "api": 8367,
+    "playwright": 8368
+  },
+  "workspace": "/tmp/agent_workspaces/ai_claude_001_7dd0"
+}

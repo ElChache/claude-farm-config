@@ -1,0 +1,96 @@
+# AI Agent Coordination System - Instructions
+
+## Document Overview
+
+### Human Input Documents
+- `HUMAN_PROJECT_SPECIFICATION.md` - Your initial project concept (YOU create this first)
+
+### Master Product Documents  
+- `PROJECT_SPECIFICATION.md` - Comprehensive product specs (Product Owner creates from your input)
+- `PRODUCT_CLARIFICATIONS.md` - XML dialogue between you and Product Owner (Phase 1)
+
+### Architecture & Planning Documents
+- `coordination/agent_output/SYSTEM_ARCHITECTURE.md` - Complete technical architecture (System Architect)
+- `coordination/agent_output/IMPLEMENTATION_PLAN.md` - Development roadmap (System Architect)
+- `coordination/TECHNICAL_STANDARDS.md` - Development guidelines (Lead Developer)
+- `coordination/agent_output/DEVELOPMENT_ENVIRONMENT_SETUP.md` - Environment setup (Lead Developer)
+
+### Design Documents
+- `coordination/UX_INTERFACE_SPECIFICATIONS.md` - UI/UX specifications (UX Expert)
+- `coordination/VISUAL_STYLE_GUIDE.md` - Visual design guide (Graphic Designer)
+
+### Task Management Documents
+- `coordination/agent_output/BE_TASKS.md` - Backend development tasks
+- `coordination/agent_output/FE_TASKS.md` - Frontend development tasks  
+- `coordination/agent_output/AI_TASKS.md` - AI integration tasks
+- `coordination/agent_output/UX_TASKS.md` - User experience design tasks
+- `coordination/agent_output/GD_TASKS.md` - Graphic design tasks
+- `coordination/agent_output/QA_TASKS.md` - Quality assurance tasks
+
+### Communication Documents
+- `coordination/agent_output/FORUM.md` - General team communication
+- `coordination/agent_output/BLOCKERS.md` - Team blockers and questions
+- `coordination/agent_output/ARCHITECT_REPORT.md` - System Architect progress reports
+- `coordination/agent_output/LEAD_REPORT.md` - Lead Developer progress reports
+- `coordination/HUMAN_INTERVENTION_REQUIRED.md` - Technical blockers requiring human action
+
+### System Files
+- `coordination/agent_output/COMMUNICATION_PROTOCOL.md` - Communication guidelines and formats
+- `.nvmrc` - Node.js version specification
+
+## Workflow Overview
+
+### Step 1: You Start
+1. Create `HUMAN_PROJECT_SPECIFICATION.md` with your project vision
+
+### Step 2: Product Owner (Phase 1-3)
+1. **Phase 1**: Reads your document, asks clarifying questions via `PRODUCT_CLARIFICATIONS.md` (XML format)
+2. **Phase 2**: Creates comprehensive `PROJECT_SPECIFICATION.md` 
+3. **Phase 3**: Monitors team and provides product guidance
+
+### Step 3: System Architect 
+1. Creates technical architecture in `coordination/agent_output/SYSTEM_ARCHITECTURE.md`
+2. Creates implementation plan in `coordination/agent_output/IMPLEMENTATION_PLAN.md`  
+3. Creates all TASKS files with feature-level tickets
+4. Monitors progress and reports every 5 minutes
+
+### Step 4: Lead Developer
+1. Creates development standards and environment setup
+2. Reviews and refines all TASKS files
+3. Supervises development team with reality checks
+4. Reports progress every 5 minutes
+
+### Step 5: Development Teams
+1. Work on assigned tasks in their respective TASKS files
+2. Break down large tasks into sub-tasks as needed
+3. Communicate via FORUM.md and TASKS files
+
+## Key Principles
+
+### The Three Adults in the Room
+- **Product Owner**: Maintains product quality and user focus
+- **System Architect**: Ensures technical reality and architecture compliance  
+- **Lead Developer**: Verifies everything actually works ("adult in the room")
+
+### Communication Frequencies  
+- **System Architect**: Checks BLOCKERS.md every 5 minutes, reports every 5 minutes
+- **Product Owner**: Checks all channels every 5 minutes  
+- **Lead Developer**: Monitors TASKS every 5 minutes, reports every 5 minutes
+- **Product Owner Phase 1**: Checks PRODUCT_CLARIFICATIONS.md every 1 minute
+
+### Document Completion Marker
+All coordination documents must end with "DOCUMENT COMPLETE" when finished
+
+### Release Structure
+PROJECT_SPECIFICATION.md uses release headers:
+- # Release 1.0 Project Specification
+- # Release 2.0 Project Specification (future)
+
+## Getting Started
+
+1. **You**: Create `HUMAN_PROJECT_SPECIFICATION.md` with your project idea
+2. **Run Product Owner**: They'll start Phase 1 and begin asking clarifying questions
+3. **Monitor**: Check `PRODUCT_CLARIFICATIONS.md` for their questions and respond
+4. **Continue**: The system will flow through all phases automatically
+
+The coordination system handles the rest!
